@@ -10,7 +10,7 @@ Chrome extension to clean cookies from the current tab in one click.
 The following permissions are required to read and delete cookies from the current
 tab.
 * cookies
-* tabs"
+* tabs
 * http://*/*
 * https://*/*
 
