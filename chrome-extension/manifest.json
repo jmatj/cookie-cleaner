@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Cookie Cleaner",
+  "name": "Cookie-Cleaner",
   "description": "Chrome extension to clean cookies from the current tab in one click.",
-  "version": "1.0",
+  "version": "0.1",
 
   "browser_action": {
     "default_icon": "icon.png",
