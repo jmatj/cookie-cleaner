@@ -2,6 +2,9 @@
 Chrome extension to clean cookies from the current tab in one click.
 
 ## installation
+* the extension can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/cookie-cleaner/alnoiokdjddbeifhpfifmlgmdpgapmaj) for free
+
+## development installation
 * clone the repository
 * activate the Developer mode under chrome://extensions/
 * click on “Load unpacked extension” and navigate to chrome-extension folder in the repository
