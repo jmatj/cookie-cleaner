@@ -1,16 +1,25 @@
 {
-  "manifest_version": 2,
+    "manifest_version": 2,
 
-  "name": "Cookie-Cleaner",
-  "description": "Chrome extension to clean cookies from the current tab in one click.",
-  "version": "0.1",
+    "name": "Cookie-Cleaner",
+    "description": "Chrome extension to clean cookies from the current tab in one click.",
+    "version": "0.1",
 
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html",
-    "default_title": "remove cookies now"
-  },
-  "permissions": [
-    "cookies", "tabs", "http://*/*", "https://*/*"
-  ]
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "remove cookies now",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "permissions": [
+        "cookies", "tabs", "http://*/*", "https://*/*"
+    ]
 }
